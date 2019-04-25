@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Mein Artikel</title>
+    <style type="text/css">
+      /*
+        WTF!? Kurse
+        Praxisaufgabe 02 - Wikiartikel
+      */
+
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto+Slab:100,300,400,700');
+
+      .wrapper {
+        width: 1200px;
+        margin: 0 auto;
+      }
+      
+      body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+      }
+
+      p {
+        line-height: 1.8em;
+      }
+
+      header {
+        background: #24292e;
+        padding: 15px 0;
+        color: #ffffff;
+      }
+
+      header .logo {
+        float: left;
+        margin-right: 25px;
+      }
+
+      header .logo img {
+        max-height: 25px;
+      }
+
+      header h1 {
+        font-size: 20px;
+        font-weight: 300;
+      }
+
+      /* Atikel - Kopf
+      **************************************/
+      #article-header {
+        background: #ccc;
+        background-size: cover;
+        padding: 240px 0 0 0;
+        text-align: right;
+      }
+
+      #article-header h1 {
+        font-weight: 300;
+        text-transform: uppercase;
+        background: rgba(0,0,0,0.6);
+        display: inline-block;
+        font-size: 4em;
+        color: #fff;
+        padding: 0 15px;
+      }
+
+      /* Artikel
+      **************************************/
+      main {
+          padding: 60px 0 60px 0;
+      }
+
+
+      #jump-card {
+          padding: 15px 40px;
+          box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.05), 0 3px 8px rgba(0, 0, 0, 0.05);
+          margin-bottom: 60px;
+      }
+
+      #jump-card a {
+        text-decoration: none;
+      }
+
+      #jump-card a:hover {
+        color: #c4c4c4;
+      }
+
+      .introduction {
+        font-family: 'Roboto Slab', serif;
+        font-size: 16px;
+        font-weight: 300;
+        color: #777777;
+        border-bottom: 1px dotted #ccc;
+        margin-bottom: 45px;
+      }
+
+      .dropcap {
+        float:left;
+        font-size:400%;
+        margin-top:14px;
+        margin-right:5px;
+        color:#8C8273;
+      }
+	</style>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="https://wtfkurse.de/_shared/_res/wtf.png" alt="Logo">
+            </div>
+
+            <h1>WTF!? Wiki / <strong>Artikelbezeichnung</strong></h1>
+        </div>
+    </header>
+
+    <section id="article-header">
+      <div class="wrapper">
+        <h1>Artikelbezeichnung</h1>
+      </div>
+    </section>
+
+
+    <main id="page-content">
+      <div class="wrapper">
+
+        <div id="jump-card">
+          <h2>Jump Card</h2>
+        </div>
+
+        <h2>Allgemeines</h2>
+
+        <div class="introduction">
+          <p>
+            <span class="dropcap">Ü</span>berall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext.
+
+          <p>
+            Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes Mal, wenn Sie ein paar Zeilen lesen.
+          </p>
+        </div>
+
+        <h2>Zwischenüberschrift</h2>
+
+        <p>
+          Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen, das es ebenso verdient wahrgenommen zu werden: Webstandards nämlich.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="wrapper">
+        <h4>Quellen</h4>
+
+        <ul>
+          <li><a href="">Irgendeine Quelle</a></li>
+        </ul>
+      </div>
+    </footer>
+</body>
+</html>
