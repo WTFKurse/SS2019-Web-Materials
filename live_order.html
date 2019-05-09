@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <label>Vorname</label>
+    <input type="text" name="vorname" id="vorname">
+
+    <label>Auswahl Gericht</label>
+    <select id="gericht">
+      <option>Gericht wählen</option>
+      <option value="Frühstück">Frühstück</option>
+      <option value="Mittag">Mittag</option>
+      <option value="Abendessen">Abendessen</option>
+    </select>
+
+    <label>Getränk</label>
+    <input type="checkbox" name="drink" value="Orangensaft"> Orangensaft<br>
+    <input type="checkbox" name="drink" value="Wasser"> Wasser<br>
+    <input type="checkbox" name="drink" value="Cola"> Cola
+
+    <input type="button" id="auswertung" value="Ab geht's!">
+
+    <script src="script.js"></script>
+  </body>
+</html>
